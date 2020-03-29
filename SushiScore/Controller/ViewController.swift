@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func onStart(_ sender: Any) {
+        self.performSegue(withIdentifier: "callPlayerList", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "callPlayerList" {
+            let destinationVC = segue.destination as! PlayerViewController
+        }
+    }
 
 
 }

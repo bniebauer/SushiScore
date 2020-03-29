@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3244ED3C2401D1EF00E23444 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244ED3B2401D1EF00E23444 /* MenuViewController.swift */; };
+		3244ED3E2401D22800E23444 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3244ED3D2401D22800E23444 /* PlayerViewController.swift */; };
+		324676C4241D437B00D5EB23 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324676C3241D437B00D5EB23 /* GameViewController.swift */; };
+		324676C6241D5EEB00D5EB23 /* ScoringCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324676C5241D5EEB00D5EB23 /* ScoringCollectionViewController.swift */; };
+		32794C6124093F0B00E51CC8 /* playerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32794C6024093F0B00E51CC8 /* playerData.swift */; };
 		3283DAD523CAAC9100734F8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DAD423CAAC9100734F8E /* AppDelegate.swift */; };
 		3283DAD723CAAC9100734F8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DAD623CAAC9100734F8E /* SceneDelegate.swift */; };
 		3283DAD923CAAC9100734F8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DAD823CAAC9100734F8E /* ViewController.swift */; };
@@ -17,8 +22,9 @@
 		3283DAEF23CAAC9800734F8E /* SushiScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DAEE23CAAC9800734F8E /* SushiScoreTests.swift */; };
 		3283DAFA23CAAC9800734F8E /* SushiScoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DAF923CAAC9800734F8E /* SushiScoreUITests.swift */; };
 		3283DB0923CAACE100734F8E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DB0823CAACE100734F8E /* Player.swift */; };
-		3283DB0B23CAACFC00734F8E /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DB0A23CAACFC00734F8E /* Deck.swift */; };
+		3283DB0B23CAACFC00734F8E /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DB0A23CAACFC00734F8E /* Menu.swift */; };
 		3283DB0D23CAAD0F00734F8E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283DB0C23CAAD0F00734F8E /* Game.swift */; };
+		32B9277624159F4700EFF350 /* AddEditPlayersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B9277524159F4700EFF350 /* AddEditPlayersTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3244ED3B2401D1EF00E23444 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3244ED3D2401D22800E23444 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		324676C3241D437B00D5EB23 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		324676C5241D5EEB00D5EB23 /* ScoringCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringCollectionViewController.swift; sourceTree = "<group>"; };
+		32794C6024093F0B00E51CC8 /* playerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerData.swift; sourceTree = "<group>"; };
 		3283DAD123CAAC9100734F8E /* SushiScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3283DAD423CAAC9100734F8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3283DAD623CAAC9100734F8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +66,9 @@
 		3283DAF923CAAC9800734F8E /* SushiScoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiScoreUITests.swift; sourceTree = "<group>"; };
 		3283DAFB23CAAC9800734F8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3283DB0823CAACE100734F8E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
-		3283DB0A23CAACFC00734F8E /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		3283DB0A23CAACFC00734F8E /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		3283DB0C23CAAD0F00734F8E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		32B9277524159F4700EFF350 /* AddEditPlayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditPlayersTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3244ED392401D08A00E23444 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3283DADA23CAAC9100734F8E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3244ED3A2401D0A500E23444 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3283DAD823CAAC9100734F8E /* ViewController.swift */,
+				3244ED3B2401D1EF00E23444 /* MenuViewController.swift */,
+				3244ED3D2401D22800E23444 /* PlayerViewController.swift */,
+				32B9277524159F4700EFF350 /* AddEditPlayersTableViewController.swift */,
+				324676C3241D437B00D5EB23 /* GameViewController.swift */,
+				324676C5241D5EEB00D5EB23 /* ScoringCollectionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		32794C5F24093EEA00E51CC8 /* testData */ = {
+			isa = PBXGroup;
+			children = (
+				32794C6024093F0B00E51CC8 /* playerData.swift */,
+			);
+			path = testData;
+			sourceTree = "<group>";
+		};
 		3283DAC823CAAC9100734F8E = {
 			isa = PBXGroup;
 			children = (
@@ -107,11 +148,12 @@
 		3283DAD323CAAC9100734F8E /* SushiScore */ = {
 			isa = PBXGroup;
 			children = (
+				32794C5F24093EEA00E51CC8 /* testData */,
+				3244ED3A2401D0A500E23444 /* Controller */,
+				3244ED392401D08A00E23444 /* View */,
 				3283DB0723CAACC700734F8E /* Model */,
 				3283DAD423CAAC9100734F8E /* AppDelegate.swift */,
 				3283DAD623CAAC9100734F8E /* SceneDelegate.swift */,
-				3283DAD823CAAC9100734F8E /* ViewController.swift */,
-				3283DADA23CAAC9100734F8E /* Main.storyboard */,
 				3283DAE023CAAC9700734F8E /* Assets.xcassets */,
 				3283DAE223CAAC9700734F8E /* LaunchScreen.storyboard */,
 				3283DAE523CAAC9700734F8E /* Info.plist */,
@@ -142,7 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				3283DB0823CAACE100734F8E /* Player.swift */,
-				3283DB0A23CAACFC00734F8E /* Deck.swift */,
+				3283DB0A23CAACFC00734F8E /* Menu.swift */,
 				3283DB0C23CAAD0F00734F8E /* Game.swift */,
 			);
 			path = Model;
@@ -279,13 +321,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3283DB0B23CAACFC00734F8E /* Deck.swift in Sources */,
+				3283DB0B23CAACFC00734F8E /* Menu.swift in Sources */,
 				3283DAD923CAAC9100734F8E /* ViewController.swift in Sources */,
 				3283DB0D23CAAD0F00734F8E /* Game.swift in Sources */,
 				3283DAD523CAAC9100734F8E /* AppDelegate.swift in Sources */,
+				324676C4241D437B00D5EB23 /* GameViewController.swift in Sources */,
 				3283DAD723CAAC9100734F8E /* SceneDelegate.swift in Sources */,
+				3244ED3E2401D22800E23444 /* PlayerViewController.swift in Sources */,
+				32B9277624159F4700EFF350 /* AddEditPlayersTableViewController.swift in Sources */,
+				32794C6124093F0B00E51CC8 /* playerData.swift in Sources */,
 				3283DB0923CAACE100734F8E /* Player.swift in Sources */,
 				3283DADF23CAAC9100734F8E /* SushiScore.xcdatamodeld in Sources */,
+				3244ED3C2401D1EF00E23444 /* MenuViewController.swift in Sources */,
+				324676C6241D5EEB00D5EB23 /* ScoringCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

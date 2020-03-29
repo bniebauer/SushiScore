@@ -9,7 +9,12 @@
 import Foundation
 
 class Player {
+    
+    let playerName: String
+    var score: Int
+    
     init(name: String) {
-        <#statements#>
+        self.playerName = name
+        self.score = 0
     }
 }

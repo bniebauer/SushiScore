@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+struct Game {
+    let players: [Player]
+    let menu: [Card]
+    var round: Int
+    
+    
+}
